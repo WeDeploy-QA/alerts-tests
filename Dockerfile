@@ -1,3 +1,3 @@
 FROM dkuffner/docker-stress
 ENTRYPOINT ["stress"]
-CMD ["-c", "1", "-t", "120"]
+CMD ["-c", "1", "-t", "60"]
