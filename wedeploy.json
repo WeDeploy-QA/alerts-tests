@@ -1,4 +1,19 @@
 {
-	"id": "dockerstress",
-	"cpu": 0.75
+  "id": "dockerstress",
+  "cpu": 1,
+  "loadBalancer": {
+    "targetPort": 80
+  },
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  }
 }
