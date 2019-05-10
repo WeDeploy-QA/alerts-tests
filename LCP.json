@@ -1,6 +1,10 @@
 {
   "id": "dockerstress",
-  "cpu": 1,
+  "cpu": 0.75,
+  "autoscale": {
+    "cpu": 20,
+    "memory": 20
+  },
   "loadBalancer": {
     "targetPort": 80
   },
