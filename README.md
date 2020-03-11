@@ -1,3 +1,3 @@
 # Alerts Tests
-## service-metric-cpu
-Generate SERVICE_METRIC_CPU_ALMOST alert.
+## service-metric-memory
+Service to stress memory
